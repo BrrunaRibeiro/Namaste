@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Signika+Negative:wght@300&display=swap');
+
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#logo {
+    font-family: 'Philosopher', sans-serif;
+    color: #222222;
+    font-size: ;
+}
