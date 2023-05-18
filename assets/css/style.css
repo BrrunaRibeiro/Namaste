@@ -1,17 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Signika+Negative:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 body {
     font-family: 'Signika Negative', sans-serif;
 }
 
-nav a {
-    text-decoration: none;
-    color: #3a3a3a;
-}
-
 #logo {
     font-family: 'Philosopher', sans-serif;
     color: #222222;
-    font-size: ;
+    font-size: 200%;
+    letter-spacing: 4px;
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-top: 0.5%;
+    border-bottom: solid 2px #222222;
+
+    animation-name: logo-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+nav {
+    display: inline;
+}
+
+nav a {
+    color: #3a3a3a;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: auto 0;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header {
+    line-height: 75px;
+    padding: 15px;
+}
+
+
+.menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+.right-nav {
+    float: right;
+}
+
+.left-nav {
+    float: left;
+}
+
+#nav-menu-right {}
+
+@keyframes logo-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
 }
