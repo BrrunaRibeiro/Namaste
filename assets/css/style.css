@@ -101,16 +101,36 @@ header {
 
 #intro-box,
 #intro-box h2 {
-    color: #cececebd;
+    color: #ffffff;
+}
+
+#intro-box>h4 {
+    font-weight: 100;
+    font-size: 100%;
+    padding-top: 5px;
 }
 
 #intro-box {
-    font-size: 130%;
+    font-size: 110%;
     text-transform: uppercase;
-    width: 300px;
+    width: 30%;
     height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(180, 178, 178, 0.205);
+    padding: 2% 2% 2% 2%;
+    background-color: rgba(180, 178, 178, 0.305);
     position: absolute;
+    top: 50%;
+    left: 150px;
+}
+
+#intro-box #triallesson-button {
+    color: #ffffff;
+    background-color: rgba(86, 141, 136, 0.623);
+    border: solid 0.5px #585858;
+    border-radius: 10px;
+
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    text-decoration: none;
+    padding: 1.5%;
 }
