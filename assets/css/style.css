@@ -150,7 +150,8 @@ header {
 }
 
 #table-header {
-    text-decoration: underline 0.5px #ffffff;
+    text-decoration: underline 1px #ffffff;
     font-weight: 300;
     font-size: 120%;
+    text-underline-offset: 4px;
 }
