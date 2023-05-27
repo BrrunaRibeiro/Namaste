@@ -42,3 +42,4 @@ Link to Live deployed Website
 ### Funtionalities you would like to add in the future
 
 ### Bugs you found and solved along the way
+    *Google maps Iframe doesnt work. Output Error: "www.google.com refused to connect."
