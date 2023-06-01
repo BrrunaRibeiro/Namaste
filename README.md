@@ -14,7 +14,7 @@ Link to Live deployed Website
 ## User Experience(UX)
 
     *Strategy
-        The website initial ideia is to show an updated schedule, facilitate the Sign-Up process and reach new clients. The company needs more online presence and to grow revenue. The competition has innovative methodslogy but offers limited classes in limited schedule options. The differencial about Flow is the flexibility in schedule and genuine care aor the clients, besides offering more space and even private rooms. Also, the owner temporarely moved to India to learn the best practices and learn from the best. The company focuses on quality and constantly asks for feedback for improvements. 
+        The website initial ideia is to show an updated schedule, facilitate the Sign-Up process and reach new clients. The company needs more online presence and to grow revenue. The competition has innovative methodology but offers limited classes in limited schedule options. The differencial about Flow is the flexibility in schedule and genuine care for the clients, besides offering more space and even private rooms. Also, the owner temporarely moved to India to learn the best practices and learn from the best. The company focuses on quality and constantly asks for feedback for improvements. 
     *Scope
         Based on the Strategy overview, the website will have a catching-eye home page; an easy to find sign-up page; an online schedule which can be updated and visible to all students at once. In a future realease, a page to possibly leave a feedback/sugestions will be included.
     *Structure
@@ -26,10 +26,9 @@ Link to Live deployed Website
 
 ## Credits
 
-    ### Code credits
-    ### Content Credits
-    ### Media Credits
-    ### Acknowlegments
+    ### Code credits: Bruna Ribeiro
+    ### Content Credits: MindBodyGreen.com
+    ### Media Credits: Unsplash.com
 
 ## Screenshots of the finished project
 
@@ -40,6 +39,7 @@ Link to Live deployed Website
 ### What you did not had time to do
 
 ### Funtionalities you would like to add in the future
+    *Interactive buttons - 
 
 ### Bugs you found and solved along the way
     *Google maps Iframe doesnt work. Output Error: "www.google.com refused to connect."

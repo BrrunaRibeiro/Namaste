@@ -27,9 +27,24 @@
 </header>
 
 <body>
-    <section id="mainphoto-home">
-        <div id="signup-home">
-        </div>
+    <section id="mainphoto">
+        <form method="post" action="" id="form">
+            <fieldset>
+                <legend>Your details</legend><br>
+                <label for="fname">Full Name:</label>
+                <input type=" text" id="fname" name="first_name" placeholder="Your name">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email_address" placeholder="Your Email Address">
+                <label for="phonen">Your Phone Number:</label>
+                <input type="tel" id="phonen" name="phone_number" placeholder="Your Phone Number">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="startdate">Select your date for a Trial Lesson/Start Date:</label>
+                <input type="date" id="startdate" name="start_date">
+            </fieldset>
+        </form>
+
     </section>
 </body>
 
