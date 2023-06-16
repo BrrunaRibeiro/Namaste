@@ -43,3 +43,5 @@ Link to Live deployed Website
 
 ### Bugs you found and solved along the way
     *Google maps Iframe doesnt work. Output Error: "www.google.com refused to connect."
+
+    *Navigation links are not working in SignUp page
