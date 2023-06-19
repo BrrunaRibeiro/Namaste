@@ -230,3 +230,22 @@ form input {
         transform: scale(1.0);
     }
 }
+
+/*Footer*/
+
+footer {
+    height: 100px;
+    text-align: center;
+}
+
+.socialplatforms>li {
+    display: inline;
+
+}
+
+.socialplatforms i {
+    color: #585858;
+    margin: 1%;
+    padding: 3%;
+    scale: 1.8;
+}
