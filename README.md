@@ -35,13 +35,21 @@ Link to Live deployed Website
 ## Tests and Deployments details
 
 ### Explanation of what works
+    *Home page with sign-up button to possibly reach new clients.
+    *Nav menu with Keyframe(transform) to get user's attention.
+    *Form with a date picker for first class/trial lesson.
+    *Footer with Social media opening in a new tab.
+    *Embeded Google Maps Iframe opening in a new tab.
+    *
 
 ### What you did not had time to do
+    *Add more content. As the project is fictitious I decided to focus on the features rather than the content. 
 
 ### Funtionalities you would like to add in the future
     *Interactive buttons - 
 
 ### Bugs you found and solved along the way
-    *Google maps Iframe doesnt work. Output Error: "www.google.com refused to connect."
-
-    *Navigation links are not working in SignUp page
+    *Google maps Iframe doesnt work. Output Error: "www.google.com refused to connect." - Fixed
+    *Navigation links are not working in SignUp page - Fixed
+    *Link to CSS sheets had wrong path. Style sheet doesnt load. - Fixed
+    *

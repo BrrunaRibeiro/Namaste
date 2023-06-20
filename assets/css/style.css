@@ -237,7 +237,7 @@ form input {
 /*Footer*/
 
 footer {
-    height: 100px;
+    height: 15%;
     text-align: center;
 }
 
@@ -247,8 +247,12 @@ footer {
 
 .social-platforms > li > a > i {
     color: #585858;
-    margin: 1%;
-    padding: 2% 3% 2% 3%;
+    margin: 0.5%;
+    padding: 2% 4% 2% 4%;
     scale: 1.8;
 }
 
+small {
+    font-size: 75%
+
+}
