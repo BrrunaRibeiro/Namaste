@@ -29,6 +29,7 @@ Link to Live deployed Website
     ### Code credits: Bruna Ribeiro
     ### Content Credits: MindBodyGreen.com
     ### Media Credits: Unsplash.com
+    ### Icons Credits: FontAwesome.com
 
 ## Screenshots of the finished project
 

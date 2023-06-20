@@ -254,5 +254,13 @@ footer {
 
 small {
     font-size: 75%
+}
 
+/*Contact page*/
+
+#contact-us {
+    color: #ffffff;
+    position: absolute;
+    padding: 5%;
+    margin: auto 0;
 }
