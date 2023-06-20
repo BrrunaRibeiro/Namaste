@@ -235,14 +235,14 @@ footer {
     text-align: center;
 }
 
-.socialplatforms>li {
+.social-platforms>li {
     display: inline;
-
 }
 
-.socialplatforms i {
+.social-platforms > li > a > i {
     color: #585858;
     margin: 1%;
-    padding: 3%;
+    padding: 2% 3% 2% 3%;
     scale: 1.8;
 }
+
