@@ -94,7 +94,7 @@ header {
     width: 100%;
 }
 
-#mainphoto {
+#main-photo {
     height: 800px;
     width: 100%;
     background: url('../images/yogapracticenamaste.webp') no-repeat;
@@ -173,6 +173,7 @@ form {
     font-weight: 100;
     font-size: 130%;
     color: #ffffff;
+    text-align: center;
 }
 
 form legend {
@@ -196,12 +197,17 @@ form input {
     margin: 1%;
 }
 
+:focus-visible {
+    outline: #ffffffa6 1px;
+}
+
 #form-container {
     background-color: rgba(54, 54, 54, 0.459);
-    padding: 3%;
+    padding: 1%;
+    border-radius: 15px;
 
     animation-name: formcontainer-zoomout;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
 }
 
