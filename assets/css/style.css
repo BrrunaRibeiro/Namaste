@@ -258,27 +258,54 @@ small {
 
 /*Contact page*/
 
-#contact-us {
+.contact-us {
     color: #ffffff;
     position: absolute;
     height: 50vh;
-    width: 50%;
-    margin: 15vh 15vw;
-    padding: 5%;
+    width: 100%;
+    margin: auto 0;
+    padding: 5% 5% 5% 0%;
     text-align: center;
     font-size: 130%;
-
 }
 
-hr {
-    border: #ffffff 2px solid;
+#contact {
+    position: relative;
+    float: right;
+    right: 15%;
 }
 
-#contact-us>div {}
+#contact-details {
+    text-decoration: none;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+#address {
+    position: relative;
+    left: 20%;
+    bottom: 74%;
+}
+
+.contact-us .fa-whatsapp {
+    padding: 3%;
+    scale: 1.3;
+    color: #ffffff;
+}
 
 #follow-us {
     position: relative;
-    top: 40%;
-    left: 30%;
+    bottom: 3%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff;
+    left: 47%;
+}
 
+#vertical-line {
+    border-left: solid 1px #ffffff67;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
 }
