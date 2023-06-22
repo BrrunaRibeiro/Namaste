@@ -245,7 +245,7 @@ footer {
     display: inline;
 }
 
-.social-platforms > li > a > i {
+.social-platforms>li>a>i {
     color: #585858;
     margin: 0.5%;
     padding: 2% 4% 2% 4%;
@@ -261,6 +261,24 @@ small {
 #contact-us {
     color: #ffffff;
     position: absolute;
+    height: 50vh;
+    width: 50%;
+    margin: 15vh 15vw;
     padding: 5%;
-    margin: auto 0;
+    text-align: center;
+    font-size: 130%;
+
+}
+
+hr {
+    border: #ffffff 2px solid;
+}
+
+#contact-us>div {}
+
+#follow-us {
+    position: relative;
+    top: 40%;
+    left: 30%;
+
 }
