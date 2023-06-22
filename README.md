@@ -35,6 +35,7 @@ https://brrunaribeiro.github.io/Project-1/
     ### Content Credits: MindBodyGreen.com
     ### Media Credits: Unsplash.com
     ### Icons Credits: FontAwesome.com
+    ### ReadMe Credits: https://github.com/kera-cudmore
 
 ## Screenshots of the finished project
 

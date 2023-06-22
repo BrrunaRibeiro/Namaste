@@ -136,6 +136,42 @@ header {
     padding: 1.5%;
 }
 
+/*Home Page*/
+
+.main-info {
+    margin: 5%;
+    height: 40%;
+    width: 90%;
+    font-size: 130%;
+
+}
+
+.main-info>h3 {
+    text-transform: uppercase;
+
+}
+
+.horizontal-line {
+    border: solid 1px #5858585b;
+}
+
+
+#spaces-photo {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    left: 900px;
+    bottom: 100px;
+}
+
+
+#info-opening-times {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 /* Schedule page */
 
 
