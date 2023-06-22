@@ -1,6 +1,6 @@
 # Project 1 - Flow
 
-Link to Live deployed Website
+https://brrunaribeiro.github.io/Project-1/
 
 ## Technologies Used
 
@@ -10,7 +10,12 @@ Link to Live deployed Website
     ### Frameworks, Libraries & Programs Used:
             * Hover.CSS
                 * Hover.CSS was used on the navigation elements in the header 
-  
+                *Git - For version control.
+                *Github - To save and store the files for the website.
+                *Google Fonts - To import the fonts used on the website.
+                *Font Awesome - For the iconography on the website.
+                *Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling. 
+                
 ## User Experience(UX)
 
     *Strategy
@@ -34,6 +39,17 @@ Link to Live deployed Website
 ## Screenshots of the finished project
 
 ## Tests and Deployments details
+    #Tests
+    
+
+    Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+    *Log in (or sign up) to Github.
+    *Find the repository for this project, Bully-Book-Club.
+    *Click on the Settings link.
+    *Click on the Pages link in the left hand side navigation bar.
+    *In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+    *Click Save. Your live Github Pages site is now deployed at the URL shown.
 
 ### Explanation of what works
     *Home page with sign-up button to possibly reach new clients.
@@ -44,7 +60,7 @@ Link to Live deployed Website
     *
 
 ### What you did not had time to do
-    *Add more content. As the project is fictitious I decided to focus on the features rather than the content. 
+    *Add more content. As the project is fictitious I decided to focus on the features and learning rather than the content. 
 
 ### Funtionalities you would like to add in the future
     *Interactive buttons - 
@@ -53,4 +69,7 @@ Link to Live deployed Website
     *Google maps Iframe doesnt work. Output Error: "www.google.com refused to connect." - Fixed
     *Navigation links are not working in SignUp page - Fixed
     *Link to CSS sheets had wrong path. Style sheet doesnt load. - Fixed
-    *
+    *Header/Nav links were not clickable in Contact page at first. -Fixed
+    *Contact page has a style issue, there is a big block I am unable to style.
+    *Link to whatsapp in contact page does not work
+    
