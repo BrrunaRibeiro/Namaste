@@ -6,6 +6,9 @@
     border: none;
 }
 
+div {
+    display: grid;
+}
 
 body {
     font-family: 'Signika Negative', sans-serif;
@@ -112,16 +115,6 @@ menu {
     background: url('../images/yogapracticenamaste.webp') no-repeat;
 }
 
-#intro-box,
-#intro-box h2 {
-    color: #ffffff;
-}
-
-#intro-box>h4 {
-    font-weight: 100;
-    font-size: 100%;
-    padding-top: 5px;
-}
 
 #intro-box {
     font-size: 100%;
@@ -133,7 +126,15 @@ menu {
     position: absolute;
     top: 40%;
     left: 150px;
+    color: #ffffff;
 }
+
+#intro-box>h4 {
+    font-weight: 100;
+    font-size: 100%;
+    padding-top: 1px;
+}
+
 
 #intro-box #triallesson-button {
     color: #ffffff;
@@ -151,41 +152,58 @@ menu {
 /*Home Page*/
 
 .main-info {
-    margin: 5%;
+    padding: 5%;
     max-height: 250px;
     max-width: 100%;
-    font-size: 125%;
-
-}
-
-.main-info>h3 {
+    font-size: 115%;
+    color: #545454;
     text-transform: uppercase;
 
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
 }
-
-.horizontal-line {
-    border: solid 1px #5858585b;
-}
-
-
-#spaces-photo {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    left: 900px;
-    bottom: 100px;
-    overflow: hidden;
-    max-width: 800px;
-    max-height: 200px;
-}
-
 
 #info-opening-times {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    height: 15px;
+    text-align: center;
 }
+
+.horizontal-line {
+    border: solid 0.5px #5858585b;
+}
+
+#info-teachers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 250px;
+    justify-content: space-evenly;
+}
+
+#teacher-photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+#teacher-photo:hover {
+    transform: scale(1.1);
+}
+
+#teachers {
+    text-align: center;
+}
+
+div li {
+    list-style: none;
+    padding: 0.5%;
+}
+
 
 /* Schedule page */
 
@@ -199,7 +217,7 @@ menu {
     padding: 2%;
     padding-top: 10%;
     position: relative;
-    top: 10%;
+    top: 25%;
     border-collapse: collapse;
 }
 
