@@ -6,6 +6,7 @@
     border: none;
 }
 
+
 body {
     font-family: 'Signika Negative', sans-serif;
 }
@@ -14,7 +15,7 @@ body {
 
 #logo {
     font-family: 'Philosopher', sans-serif;
-    color: #ffffff;
+    color: #585858;
     font-size: 200%;
     letter-spacing: 4px;
     position: absolute;
@@ -22,7 +23,7 @@ body {
     text-decoration: none;
     margin-left: 25%;
     margin-top: 0.5%;
-    border-bottom: solid 2px #ffffff;
+
 
     animation-name: logo-zoom;
     animation-duration: 10s;
@@ -32,10 +33,11 @@ body {
 
 nav {
     display: inline;
+
 }
 
 nav a {
-    color: #f5f5f5;
+    color: #545454;
     font-size: 120%;
     text-transform: uppercase;
     text-decoration: none;
@@ -51,12 +53,21 @@ nav li {
 }
 
 header {
-    line-height: 80px;
+    position: fixed;
+    line-height: 60px;
     padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background: #ffffff;
+    z-index: 3;
+}
+
+menu {
+    color: #585858;
 }
 
 .menu a:hover {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #585858;
 }
 
 .right-nav {
@@ -91,12 +102,13 @@ header {
 
 #mainphoto-container {
     height: 800px;
-    width: 100vw;
+    width: 100%;
+    overflow: hidden;
 }
 
 #main-photo {
     height: 800px;
-    width: 100vw;
+    width: 100%;
     background: url('../images/yogapracticenamaste.webp') no-repeat;
 }
 
@@ -112,14 +124,14 @@ header {
 }
 
 #intro-box {
-    font-size: 110%;
+    font-size: 100%;
     text-transform: uppercase;
-    width: 30%;
-    height: 200px;
+    width: 33%;
+    height: 250px;
     padding: 2% 2% 2% 2%;
     background-color: rgba(180, 178, 178, 0.305);
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 150px;
 }
 
@@ -140,9 +152,9 @@ header {
 
 .main-info {
     margin: 5%;
-    height: 40%;
-    width: 90%;
-    font-size: 130%;
+    max-height: 250px;
+    max-width: 100%;
+    font-size: 125%;
 
 }
 
@@ -162,6 +174,9 @@ header {
     margin: 0;
     left: 900px;
     bottom: 100px;
+    overflow: hidden;
+    max-width: 800px;
+    max-height: 200px;
 }
 
 
@@ -209,18 +224,18 @@ form {
     font-weight: 100;
     font-size: 130%;
     color: #ffffff;
-    text-align: center;
+
 }
 
 form legend {
     font-weight: 400;
     font-size: 150%;
     color: #ffffff;
-    text-align: center;
+
 }
 
 form input {
-    background-color: rgba(141, 141, 141, 0.089);
+    background-color: rgba(141, 141, 141, 0);
     border: solid 1px #ffffffa6;
     border-radius: 10px;
     width: 12%;
@@ -342,7 +357,7 @@ small {
 #follow-us {
     position: relative;
     left: 30%;
-    top: 80vh;
+    top: 80%;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #ffffff;
