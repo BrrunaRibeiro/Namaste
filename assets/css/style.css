@@ -36,7 +36,6 @@ body {
 
 nav {
     display: inline;
-
 }
 
 nav a {
@@ -104,13 +103,13 @@ menu {
 /*Main image*/
 
 #mainphoto-container {
-    height: 800px;
+    height: 830px;
     width: 100%;
     overflow: hidden;
 }
 
 #main-photo {
-    height: 800px;
+    height: 830px;
     width: 100%;
     background: url('../images/yogapracticenamaste.webp') no-repeat;
 }
@@ -354,86 +353,50 @@ form input {
     }
 }
 
-/*Footer*/
-
-footer {
-    text-align: center;
-    height: 20%;
-}
-
-ul .social-platforms {
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    padding-inline-start: 0px;
-    height: 20%;
-}
-
-.social-platforms li {
-    display: inline;
-}
-
-.social-platforms>li>a>i {
-    color: #585858;
-    margin: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
-    scale: 1.9;
-}
-
-
 /*Contact page*/
 
-.contact-us {
-    color: #ffffff;
-    position: relative;
-    height: 80%;
-    width: 100%;
-    padding: 2% 2% 2% 0%;
-    font-size: 130%;
-    font-weight: 200;
+.contact-container {
+    background-color: rgba(66, 112, 112, 0.438);
+    margin: 5%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding: 4%;
+    border-radius: 15px;
+    color: #585858;
+    height: 30%;
+    width: 20%;
+    display: inline-flex;
     text-align: center;
-}
-
-
-#contact {
-    position: relative;
-    right: 15%;
-    top: 15%;
-    text-decoration: none;
-    font-weight: 400;
-    color: #ffffff;
-    text-align: center;
-    float: right;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #address {
-    position: relative;
-    left: 20%;
-    bottom: 74%;
-    float: left;
+    left: 32%;
+}
+
+ul .socialicons {
+    color: red;
+}
+
+#socials {
+    left: 64%;
+}
+
+#map {
+    width: 200px;
+    height: 100%;
+    align-items: center;
+    padding: 5px;
 }
 
 .fa-whatsapp {
-    padding: 3%;
-    scale: 1.3;
-    color: #ffffff;
-}
-
-#follow-us {
-    position: relative;
-    left: 30%;
-    top: 80%;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #ffffff;
-}
-
-#vertical-line {
-    border-left: solid 2px #ffffff96;
-    height: 300px;
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
+    scale: 1.8;
+    color: #357447;
+    height: 5%;
+    width: 5%;
+    align-items: center;
 }
 
 /*Confirmation page*/
@@ -490,4 +453,30 @@ ul .social-platforms {
         transform: scale(1.1);
 
     }
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    height: 20%;
+}
+
+ul .social-platforms {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+    height: 20%;
+}
+
+.social-platforms li {
+    display: inline;
+}
+
+.social-platforms>li>a>i {
+    color: #585858;
+    margin: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    scale: 1.9;
 }
