@@ -237,7 +237,7 @@ div li {
 
 #info-spaces {
     height: 400px;
-    background: url('/assets/images/multipleyogapracticesbothindoorsandoutdoors.webp') no-repeat;
+    background: url('assets/images/multipleyogapracticesbothindoorsandoutdoors.webp') no-repeat;
     background-size: contain;
     display: flex;
     padding: 0;
