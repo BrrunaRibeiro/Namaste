@@ -131,7 +131,7 @@ menu {
 #intro-box>h4 {
     font-weight: 100;
     font-size: 100%;
-    padding-top: 1px;
+    padding-bottom: 30px;
 }
 
 
@@ -147,6 +147,11 @@ menu {
     text-decoration: none;
     padding: 1.5%;
 }
+
+#triallesson-button:hover {
+    box-shadow: 3px 12px 15px 3px rgba(77, 77, 77, 0.24);
+}
+
 
 /*Home Page*/
 
@@ -359,7 +364,7 @@ form input {
     background-color: rgba(54, 54, 54, 0.459);
     font-size: 115%;
     margin: 5%;
-    margin-top: 15%;
+    margin-top: 12.5%;
     margin-bottom: 10%;
     padding: 4%;
     border-radius: 15px;
@@ -388,10 +393,11 @@ form input {
 
 
 #map {
-    width: 200px;
+    width: 400px;
     height: 100%;
     align-items: center;
     padding: 5px;
+    box-shadow: #585858;
 }
 
 .fa-whatsapp {
@@ -443,8 +449,8 @@ details[open] div {
 #thankyou-container {
     display: flex;
     position: fixed;
-    top: 32%;
-    left: 21%;
+    top: 20%;
+    left: 32%;
     width: 450px;
     height: 450px;
     border: #585858 solid 1px;
