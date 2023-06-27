@@ -36,6 +36,7 @@ https://brrunaribeiro.github.io/Project-1/
     ### Media Credits: Unsplash.com
     ### Icons Credits: FontAwesome.com
     ### ReadMe Credits: https://github.com/kera-cudmore
+    ### FQA Credits: https://dev.to/felixdusengimana/lets-create-an-faq-section-with-html-and-css-only-detail-tag-explained-12gf
 
 ## Screenshots of the finished project
 
