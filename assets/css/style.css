@@ -114,7 +114,7 @@ menu {
 #main-photo {
     height: 830px;
     width: 100%;
-    background: url('../images/yogapracticenamaste.webp') no-repeat;
+    background: url('../images/yogapracticenamaste.webp') no-repeat center top;
 }
 
 
@@ -565,6 +565,15 @@ ul .social-platforms {
         right: 15%;
     }
 
+    #mainphoto-container {
+        height: 770px;
+    }
+
+    #main-photo {
+        height: 770px;
+        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+    }
+
     div #intro-box {
         width: 40%;
         left: 120px;
@@ -605,6 +614,15 @@ ul .social-platforms {
         right: 25%;
     }
 
+    #mainphoto-container {
+        height: 770px;
+    }
+
+    #main-photo {
+        height: 770px;
+        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+    }
+
     div #intro-box {
         width: 42%;
         left: 100px;
@@ -634,17 +652,27 @@ ul .social-platforms {
 }
 
 @media screen and (max-width: 1240px) {
+
     #nav-menu-left {
         left: 9%;
     }
 
     #nav-menu-right {
-        right: 3%;
+        right: 1%;
     }
 
     #logo h1 {
         position: relative;
         right: 35%;
+    }
+
+    #mainphoto-container {
+        height: 770px;
+    }
+
+    #main-photo {
+        height: 770px;
+        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
     }
 
     div #intro-box {
@@ -675,18 +703,25 @@ ul .social-platforms {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1086px) {
     #nav-menu-left {
-        left: 21%;
+        left: 12%;
     }
 
-    #nav-menu-right {
-        right: 12%;
-    }
+    #nav-menu-right {}
 
     #logo h1 {
         position: relative;
-        right: 35%;
+        right: 40%;
+    }
+
+    #mainphoto-container {
+        height: 770px;
+    }
+
+    #main-photo {
+        height: 770px;
+        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
     }
 
     div #intro-box {
@@ -716,4 +751,305 @@ ul .social-platforms {
         margin-top: 17%;
     }
 
+    .teacher-photo {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    .overlay {
+        height: 250px;
+        width: 250px;
+    }
+
+    .text {
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    #mainphoto-container {
+        height: 770px;
+    }
+
+    #main-photo {
+        height: 770px;
+        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+    }
+
+    #schedule {
+        height: 50%;
+        font-size: 82%;
+        top: 30%;
+    }
 }
+
+@media screen and (max-width: 425px) {
+
+    body {
+        font-size: 75%;
+    }
+
+    header {
+        line-height: normal;
+        font-size: 90%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-menu-left {
+        display: contents;
+    }
+
+    #nav-menu-right {
+        display: contents;
+
+    }
+
+    #logo h1 {
+        position: relative;
+        display: contents;
+        text-align: center;
+    }
+
+    #logo {
+        margin-left: 0%;
+        margin: 3%;
+        position: relative;
+        order: -1;
+    }
+
+    #mainphoto-container {
+        height: 230px;
+        position: relative;
+        top: 200px;
+    }
+
+    #main-photo {
+        height: 230px;
+        background: url(../images/yogapracticenamaste.webp) no-repeat;
+        background-size: contain;
+    }
+
+
+    div #intro-box {
+        width: 80%;
+        left: 10px;
+        font-size: 60%;
+        height: 100px;
+    }
+
+    #intro-box>h4 {
+        font-weight: 100;
+        font-size: 75%;
+        padding-bottom: 5px;
+    }
+
+    #intro-box #triallesson-button {
+        bottom: 10%;
+        right: 3.5%;
+    }
+
+    #info-opening-times {
+        grid: 30px / auto auto;
+        height: auto;
+        font-size: 65%;
+        padding-top: 62%;
+    }
+
+    #info-teachers {
+        justify-content: flex-start;
+        flex-direction: column;
+        font-size: 70%;
+        height: 408px;
+        max-height: 408px;
+    }
+
+    #teachers {}
+
+    #teachers h4 {
+        padding-top: 15px;
+    }
+
+    #in-and-out {
+        padding: 0% 1% 3% 1%;
+        margin-top: -65%;
+        font-size: 75%;
+    }
+
+    #form-container {
+        margin-top: 7%;
+    }
+
+    fieldset {
+        padding: 3%;
+    }
+
+    #map {
+        width: 250px;
+    }
+
+    .contact-container {
+        padding: 1%;
+        margin-top: 17%;
+    }
+
+    .teacher-photo {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    .overlay {
+        height: 250px;
+        width: 250px;
+    }
+
+    .text {
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    #schedule {
+        height: 50%;
+        font-size: 82%;
+        top: 30%;
+    }
+
+    footer {
+        height: 30px;
+    }
+
+    .social-platforms {
+        padding: 5%;
+    }
+}
+
+
+
+
+
+/* 
+@media screen and (max-width: 425px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #nav-menu-left {
+        display: contents;
+
+    }
+
+    #nav-menu-right {
+        display: contents;
+
+    }
+
+    #logo h1 {
+        position: relative;
+        display: contents;
+    }
+}
+
+#logo {
+    margin-left: 0%;
+    margin: 3%;
+    position: relative;
+    order: -1;
+}
+
+#mainphoto-container {
+    height: 770px;
+}
+
+#main-photo {
+    height: 770px;
+    background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+}
+
+div #intro-box {
+    width: 50%;
+    left: 100px;
+}
+
+#in-and-out {
+    padding: 0% 1% 3% 1%;
+    margin-top: -6%;
+}
+
+#form-container {
+    margin-top: 7%;
+}
+
+fieldset {
+    padding: 3%;
+}
+
+#map {
+    width: 250px;
+}
+
+.contact-container {
+    padding: 1%;
+    margin-top: 17%;
+}
+
+.teacher-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.overlay {
+    height: 250px;
+    width: 250px;
+}
+
+.text {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#mainphoto-container {
+    height: 770px;
+}
+
+#main-photo {
+    height: 770px;
+    background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+}
+
+#schedule {
+    height: 50%;
+    font-size: 82%;
+    top: 30%;
+}
+}
+
+*/
