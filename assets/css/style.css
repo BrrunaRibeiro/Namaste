@@ -735,6 +735,7 @@ ul .social-platforms {
     #main-photo {
         height: 770px;
         background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+        background-size: cover;
     }
 
     div #intro-box {
@@ -804,7 +805,143 @@ ul .social-platforms {
 
 }
 
+/* Media queries Max-Width 768px */
 
+@media screen and (max-width: 768px) {
+    #nav-menu-left {
+        left: -6%;
+    }
+
+    #nav-menu-right {
+        right: -14%;
+    }
+
+    nav ul {
+        scale: 0.8;
+    }
+
+    #logo h1 {
+        position: relative;
+        right: 59%;
+    }
+
+    .mainphoto-container {
+        height: 770px;
+    }
+
+    #main-photo {
+        height: 770px;
+        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+        background-size: cover;
+    }
+
+    div #intro-box {
+        width: 60%;
+        left: 50px;
+    }
+
+    #info-opening-times {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    #in-and-out {
+        padding: 0% 1% 3% 1%;
+        margin-top: -20%;
+    }
+
+    #form-container {
+        margin-top: 15%;
+    }
+
+    fieldset {
+        padding: 3%;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    form {
+        width: 90%;
+        height: 550px;
+        font-size: 100%;
+        color: #ffffff;
+        position: absolute;
+    }
+
+    form input {
+        width: 30%;
+        height: 200%;
+        font-size: 90%;
+        font-family: 'Signika Negative', sans-serif;
+        color: #ffffff8a;
+        padding: 4px 40px 4px 40px;
+        box-shadow: 0 0 0.1px 0.7px #d3d2d250;
+        margin: 1.6%;
+        box-sizing: content-box;
+        text-align: center;
+    }
+
+    .contact-container {
+        padding: 1%;
+        width: 100%;
+        display: block;
+        margin: 0% 0% 0% 0%;
+        height: 200px;
+        scale: 0.8;
+    }
+
+    #map {
+        width: 80%;
+        height: 100px;
+        padding-left: 25px;
+        padding-right: 15px;
+
+    }
+
+    #contact {
+        position: relative;
+        width: 45%;
+    }
+
+    #all-contact {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        bottom: 650px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #address {
+        position: relative;
+        width: 45%;
+        top: -330%;
+        left: auto;
+        height: 210px;
+    }
+
+    #qanda {
+        position: relative;
+        width: 100%;
+        top: -214%;
+        left: auto;
+        height: fit-content;
+    }
+
+    .fa-whatsapp {
+        scale: 2.0;
+        padding: 0;
+        margin: 0;
+    }
+
+    #footer-higher {
+        position: relative;
+        bottom: 50%;
+    }
+}
 
 /* Media queries Max-Width 425px */
 
