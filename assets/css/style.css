@@ -418,7 +418,7 @@ legend {
 }
 
 .fa-whatsapp {
-    scale: 2.0;
+    scale: (2.0);
     color: #ffffff;
     height: 5%;
     width: 5%;
@@ -546,11 +546,6 @@ ul .social-platforms {
 /* Media queries Max-Width 2560 */
 
 @media screen and (max-width: 2560px) {
-    body {
-        width: 2560px;
-        max-width: 2560px;
-        height: fit-content;
-    }
 
 
     #logo h1 {
@@ -613,10 +608,6 @@ ul .social-platforms {
 /* Media queries Max-Width 1540px */
 
 @media screen and (max-width: 1540px) {
-    body {
-        width: unset;
-        max-width: 1540px;
-    }
 
     #nav-menu-left {
         left: 20%;
