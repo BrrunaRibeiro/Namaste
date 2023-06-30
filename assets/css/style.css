@@ -418,7 +418,6 @@ legend {
 }
 
 .fa-whatsapp {
-    scale: (2.0);
     color: #ffffff;
     height: 5%;
     width: 5%;
@@ -540,7 +539,6 @@ ul .social-platforms {
     margin: 3%;
     padding-left: 3%;
     padding-right: 3%;
-    scale: 1.9;
 }
 
 /* Media queries Max-Width 2560 */
@@ -883,9 +881,6 @@ ul .social-platforms {
         margin-top: 1%;
     }
 
-    nav ul {
-        scale: 0.8;
-    }
 
     nav a {
         letter-spacing: 2px;
@@ -1175,7 +1170,7 @@ ul .social-platforms {
     }
 
     div #all-contact {
-        scale: (0.3);
+        scale: 0.3;
     }
 
     #map {

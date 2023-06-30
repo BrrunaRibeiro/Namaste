@@ -1,6 +1,7 @@
-# Project 1 - Flow
+# Project 1 - Namaste
 
-https://brrunaribeiro.github.io/Project-1/
+[Namaste](https://brrunaribeiro.github.io/Project-1/)
+![Screenshot](assets/images/readmeimages/indexpagescreenshot.webp)
 
 ## Technologies Used
 
@@ -41,9 +42,15 @@ https://brrunaribeiro.github.io/Project-1/
 
 ## Screenshots of the finished project
 
+![Screenshots](assets/images/readmeimages/screenshotindex.webp)
+![Screenshots](assets/images/readmeimages/screenshotindexhover.webp)
+![Screenshots](assets/images/readmeimages/screenshotformconfirmation.webp)
+
 ## Tests and Deployments details
     #Tests
-    
+        *https://wave.webaim.org/ - Passed
+        *
+
 
     Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
