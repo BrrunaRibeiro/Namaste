@@ -28,7 +28,8 @@ https://brrunaribeiro.github.io/Project-1/
         Navigation bar will the fixed at the top for a visiblliby and to help user to efficiently move through content. Representational icons to help decode which item does. 
     *Surface
         The webiste will have calm colors, with a good contrast for accessibility. A light-weight font and images that bring a sense of peace.        
-
+## Design
+    *Color pallete: https://coolors.co/778c96-58656a-222121-535b5d-e7d5d2-73797d-343432-434442-c28365-fefefe
 ## Credits
 
     ### Code credits: Bruna Ribeiro
