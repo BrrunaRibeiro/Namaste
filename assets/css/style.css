@@ -209,9 +209,13 @@ div li {
     position: relative;
 }
 
+#teachers > ul > li{
+    font-weight: 300;
+    margin-bottom: 2.5%;    
+}
+
 #teachers {
     font-weight: 300;
-
 }
 
 .teacher-photo {
