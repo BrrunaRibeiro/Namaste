@@ -12,7 +12,10 @@ div {
 
 body {
     font-family: 'Signika Negative', sans-serif;
-
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
 }
 
 /* Header and Nav*/
@@ -23,7 +26,7 @@ nav {
 }
 
 nav a {
-    color: #cf3e3e;
+    color: #757575;
     font-size: 120%;
     text-transform: uppercase;
     text-decoration: none;
@@ -56,7 +59,7 @@ header {
     position: absolute;
     display: inline-block;
     text-decoration: none;
-    margin-left: 26%;
+    margin-left: 20%;
     margin-top: 0.5%;
 
 
@@ -296,6 +299,13 @@ div li {
 
 /*Sign-up page*/
 
+#form-container {
+    background-color: rgba(54, 54, 54, 0.459);
+    padding: 1%;
+    border-radius: 15px;
+    transform: translate(0%, 12%);
+}
+
 #main-photo-form {
     height: 830px;
     width: 100%;
@@ -343,19 +353,10 @@ legend {
     outline: #ffffffa6 1px;
 }
 
-#form-container {
-    background-color: rgba(54, 54, 54, 0.459);
-    padding: 1%;
-    border-radius: 15px;
-
-    animation-name: formcontainer-zoomout;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-}
-
 #submitbutton {
     font-size: 120%;
     background-color: #cfcfcf91;
+    padding: 5px 20px 5px 20px;
 }
 
 #submitbutton:hover {
@@ -364,16 +365,6 @@ legend {
 
 #submitbutton:active {
     background-color: #585858;
-}
-
-@keyframes formcontainer-zoomout {
-    from {
-        transform: scale(1.1)
-    }
-
-    to {
-        transform: scale(1.0);
-    }
 }
 
 /*Contact page*/
