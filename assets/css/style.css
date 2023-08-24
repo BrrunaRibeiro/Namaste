@@ -36,7 +36,6 @@ nav a {
 
 nav li {
     list-style-type: none;
-    padding: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -56,12 +55,7 @@ header {
     color: #585858;
     font-size: 200%;
     letter-spacing: 4px;
-    position: absolute;
-    display: inline-block;
     text-decoration: none;
-    margin-left: 20%;
-    margin-top: 0.5%;
-
 
     animation-name: logo-zoom;
     animation-duration: 10s;
@@ -70,8 +64,10 @@ header {
 
 }
 
-menu {
-    color: #585858;
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5%;
 }
 
 .menu a:hover {
@@ -209,9 +205,9 @@ div li {
     position: relative;
 }
 
-#teachers > ul > li{
+#teachers>ul>li {
     font-weight: 300;
-    margin-bottom: 2.5%;    
+    margin-bottom: 2.5%;
 }
 
 #teachers {
@@ -272,6 +268,8 @@ div li {
 #in-and-out>h2 {
     padding: 1%;
 }
+
+
 
 /* Schedule page */
 
@@ -539,14 +537,6 @@ ul .social-platforms {
 /* Media queries Max-Width 2560 */
 
 @media screen and (max-width: 2560px) {
-
-
-    #logo h1 {
-        position: relative;
-        left: 40%;
-    }
-
-
     #info-spaces {
         background-size: cover;
 
@@ -568,25 +558,12 @@ ul .social-platforms {
 
 }
 
-
 /* Media queries Max-Width 1800px */
 
 @media screen and (max-width: 1800px) {
-    #nav-menu-left {
-        left: 21%;
-    }
-
-    #nav-menu-right {
-        right: 12%;
-    }
-
-    #logo h1 {
-        left: unset;
-    }
-
-    body {
+    /* body {
         height: fit-content;
-    }
+    } */
 
     #form {
         padding-top: 0;
@@ -601,21 +578,6 @@ ul .social-platforms {
 /* Media queries Max-Width 1540px */
 
 @media screen and (max-width: 1540px) {
-
-    #nav-menu-left {
-        left: 20%;
-    }
-
-    #nav-menu-right {
-        right: unset;
-        right: 15%;
-    }
-
-    #logo h1 {
-        position: relative;
-        right: 15%;
-    }
-
     .mainphoto-container {
         height: 770px;
     }
@@ -659,20 +621,6 @@ ul .social-platforms {
 /* Media queries Max-Width 1440px */
 
 @media screen and (max-width: 1440px) {
-    #nav-menu-left {
-        left: 18%;
-    }
-
-    #logo h1 {
-        position: relative;
-        right: 25%;
-    }
-
-    #nav-menu-right {
-        right: unset;
-        right: 10%;
-    }
-
     .mainphoto-container {
         height: 770px;
     }
@@ -713,20 +661,6 @@ ul .social-platforms {
 /* Media queries Max-Width 1240px */
 
 @media screen and (max-width: 1240px) {
-
-    #nav-menu-left {
-        left: 9%;
-    }
-
-    #nav-menu-right {
-        right: 1%;
-
-    }
-
-    #logo h1 {
-        position: relative;
-        right: 35%;
-    }
 
     .mainphoto-container {
         height: 770px;
@@ -769,18 +703,6 @@ ul .social-platforms {
 /* Media queries Max-Width 1024px */
 
 @media screen and (max-width: 1024px) {
-    #nav-menu-left {
-        left: 12%;
-    }
-
-    #nav-menu-right {
-        right: unset;
-    }
-
-    #logo h1 {
-        position: relative;
-        right: 44%;
-    }
 
     .mainphoto-container {
         height: 770px;
@@ -865,31 +787,9 @@ ul .social-platforms {
 /* Media queries Max-Width 768px */
 
 @media screen and (max-width: 768px) {
-    #nav-menu-left {
-        left: 5%;
-        margin-top: 1%;
-    }
-
-    #nav-menu-right {
-        right: unset;
-        left: 1.7%;
-        margin-top: 1%;
-    }
-
-
     nav a {
         letter-spacing: 2px;
         font-size: 100%;
-    }
-
-    #logo h1 {
-        position: relative;
-        right: 105px;
-        margin-left: 0%;
-    }
-
-    header>h1 {
-        margin-left: 0%;
     }
 
     .mainphoto-container {
@@ -998,11 +898,6 @@ ul .social-platforms {
         font-size: 82%;
     }
 
-    #footer-higher {
-        position: relative;
-        bottom: unset;
-        bottom: -10px;
-    }
 }
 
 /* Media queries Max-Width 425px */
@@ -1013,55 +908,30 @@ ul .social-platforms {
     }
 
     header {
-        line-height: normal;
-        font-size: 95%;
-        position: absolute;
+        position: static;
     }
 
-    nav {
+    .menu {
         display: flex;
+        padding-left: 5%;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
-    #nav-menu-left {
-        display: contents;
-    }
-
-    #nav-menu-right {
-        display: contents;
-
-    }
-
-    #logo h1 {
-        position: relative;
-        display: contents;
-        text-align: center;
-    }
-
-    #logo {
-        margin-left: 0%;
-        margin: 3%;
-        position: relative;
-        order: -1;
-        right: 0%;
+    nav li {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .mainphoto-container {
-        height: 230px;
+        /* height: 230px; */
         position: relative;
-        top: 200px;
+        /* top: 200px; */
     }
 
     #main-photo {
-        height: inherit;
-        width: 100%;
-        background: url(../images/yogapracticenamaste.webp) no-repeat center;
-        background-size: cover;
-        overflow: hidden;
+        height: 600px;
     }
-
 
     div #intro-box {
         width: 80%;
@@ -1205,12 +1075,11 @@ ul .social-platforms {
     }
 
     #schedule {
-        height: 70%;
-        top: 30%;
-        display: flex;
-        align-items: center;
-        top: 15%;
+        height: 100%;
+        top: 10%;
         padding-top: 0;
+        table-layout: auto;
+        grid-template-columns: 33% 33% 33% 33% 33% 33% 33%;
     }
 
     footer {
@@ -1226,8 +1095,6 @@ ul .social-platforms {
         position: relative;
         bottom: -180px;
     }
-
-
 
     .social-platforms {
         padding: 5%;
@@ -1281,18 +1148,21 @@ ul .social-platforms {
         top: -27%;
     }
 
-    #schedule {
+    /* #schedule {
         display: flex;
         align-items: center;
         top: 10%;
-    }
+    } */
 }
-
-
 
 /* Media queries Max-Width 320px */
 
 @media screen and (max-width: 320px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
     #info-opening-times {
         padding-top: 64%;
     }
@@ -1337,7 +1207,7 @@ ul .social-platforms {
     }
 
 
-    #schedule {
+    /* #schedule {
         height: 70%;
         top: 30%;
         font-size: 10%;
@@ -1346,5 +1216,5 @@ ul .social-platforms {
         top: 15%;
         padding-top: 10%;
         padding-bottom: 10%;
-    }
+    } */
 }
