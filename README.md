@@ -1,6 +1,6 @@
 # Project 1 - Namaste
 
-[Namaste](https://brrunaribeiro.github.io/Project-1/)
+[Namaste](https://brrunaribeiro.github.io/Namaste/)
 
 ![Screenshot](assets/images/readmeimages/indexpagescreenshot.webp)
 
@@ -25,11 +25,11 @@
 
 ##### Strategy
 
-    The website initial ideia is to show an updated schedule, facilitate the Sign-Up process and reach new clients. The company needs more online presence and to grow revenue. The competition has innovative methodology but offers limited classes in limited schedule options. The differencial about Flow is the flexibility in schedule and genuine care for the clients, besides offering more space and even private rooms. Also, the owner temporarely moved to India to learn the best practices and learn from the best. The company focuses on quality and constantly asks for feedback for improvements. 
+    The website initial goal is to show an updated schedule, facilitate the Sign-Up process and reach new clients. The company needs more online presence and to grow revenue. The competition has innovative methodology but offers limited classes in limited schedule options. The differential about Flow is the flexibility in schedule and a genuine care for the clients, besides offering more space and even private rooms. Also, the owner temporarily moved to India to learn the best practices and learn from the best. The company focuses on quality and constantly asks for feedback for improvements. 
 
 ##### Scope
 
-    Based on the Strategy overview, the website will have a catching-eye home page; an easy to find sign-up page; an online schedule which can be updated and visible to all students at once. In a future realease, a page to possibly leave a feedback/sugestions will be included.
+    Based on the Strategy overview, the website will have a catching-eye home page; an easy to find sign-up page; an online schedule which can be updated and visible to all students at once. In a future release, a page to possibly leave a feedback/suggestions will be included.
 
 ##### Structure
 
@@ -37,11 +37,11 @@
 
 ##### Skeleton
 
-    Navigation bar will the fixed at the top for a visiblliby and to help user to efficiently move through content. Representational icons to help decode which item does. 
+    Navigation bar will the fixed at the top for a visibility and to help user to efficiently move through content. Representational icons to help decode which item does. 
 
 #### Surface
 
-    The webiste will have calm colors, with a good contrast for accessibility. A light-weight font and images that bring a sense of peace.  
+    The website will have calm colors, with a good contrast for accessibility. A light-weight font and images that bring a sense of peace.  
 
 ## Design & Color Reference
 
@@ -95,7 +95,7 @@ Friends and family members were asked to review the site and documentation to po
 
 * My Mentor for continuous helpful feedback.
 
-#### Credits
+### Credits
 
 * Code credits: Bruna Ribeiro
 * Content Credits: MindBodyGreen.com
@@ -111,8 +111,8 @@ Friends and family members were asked to review the site and documentation to po
 * Form with a date picker for first class/trial lesson.
 * Form confirmation page with time-based automatic redirection to the Home page.
 * Footer with Social media opening in a new tab.
-* Embeded Google Maps Iframe opening in a new tab.
-* Expandable FQA(Frequenty Asked Questions) in Contact page.
+* Embedded Google Maps Iframe opening in a new tab.
+* Expandable FQA(Frequently Asked Questions) in Contact page.
 
 ### What you did not had time to do
 
@@ -120,15 +120,15 @@ Friends and family members were asked to review the site and documentation to po
 * Invest more time in Readme file.
 * Add more Media Queries.
 
-### Funtionalities you would like to add in the future
+### Functionalities you would like to add in the future
 
 * Date picker starting from today's date and on(You can currently choose dates in the past).
 
 ### Bugs you found and solved along the way
 
-* Google maps Iframe doesnt work. Output Error: "www.google.com refused to connect." - Fixed
+* Google maps Iframe does not work. Output Error: "www.google.com refused to connect." - Fixed
 * Navigation links are not working in SignUp page - Fixed
-* Link to CSS sheets had wrong path. Style sheet doesnt load. - Fixed
+* Link to CSS sheets had wrong path. Style sheet does not load. - Fixed
 * Header/Nav links were not clickable in Contact page at first. -Fixed
 * Contact page has a style issue. -Fixed
 * Link to whatsapp in contact page does not work. -Fixed
