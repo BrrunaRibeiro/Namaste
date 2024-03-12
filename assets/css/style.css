@@ -701,7 +701,6 @@ ul .social-platforms {
 /* Media queries Max-Width 1024px */
 
 @media screen and (max-width: 1024px) {
-
     .mainphoto-container {
         height: 770px;
     }
@@ -922,7 +921,7 @@ ul .social-platforms {
     }
 
     .mainphoto-container {
-        /* height: 230px; */
+        height: 300px;
         position: relative;
         /* top: 200px; */
     }
@@ -953,7 +952,7 @@ ul .social-platforms {
         grid: 30px / auto auto;
         height: auto;
         font-size: 65%;
-        padding-top: 52%;
+        padding-top: 25px;
     }
 
     #info-teachers {
@@ -1121,11 +1120,6 @@ ul .social-platforms {
 /* Media queries Max-Width 375px */
 
 @media screen and (max-width: 375px) {
-
-    #info-opening-times {
-        padding-top: 58%;
-    }
-
     #in-and-out {
         margin-top: -52%;
     }
@@ -1159,10 +1153,6 @@ ul .social-platforms {
     nav {
         display: flex;
         flex-direction: column;
-    }
-
-    #info-opening-times {
-        padding-top: 64%;
     }
 
     #in-and-out {
