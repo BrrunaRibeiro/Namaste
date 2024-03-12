@@ -113,6 +113,7 @@ Friends and family members were asked to review the site and documentation to po
 * Footer with Social media opening in a new tab.
 * Embedded Google Maps Iframe opening in a new tab.
 * Expandable FQA(Frequently Asked Questions) in Contact page.
+* Favicon in all pages.
 
 ### What you did not had time to do
 
@@ -132,3 +133,4 @@ Friends and family members were asked to review the site and documentation to po
 * Header/Nav links were not clickable in Contact page at first. -Fixed
 * Contact page has a style issue. -Fixed
 * Link to whatsapp in contact page does not work. -Fixed
+* Favicon was not loading. -Fixed
