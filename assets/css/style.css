@@ -997,7 +997,7 @@ ul .social-platforms {
     }
 
     #main-photo-form {
-        height: 450px;
+        height: 470px;
         width: 100%;
         background: url('../images/yogapracticenamaste.webp') no-repeat right top;
         background-size: cover;
@@ -1005,7 +1005,7 @@ ul .social-platforms {
 
     form {
         width: 90%;
-        height: 550px;
+        height: 390px;
         font-size: 90%;
         color: #ffffff;
         position: absolute;
@@ -1013,7 +1013,7 @@ ul .social-platforms {
     }
 
     #form-container {
-        margin-top: 3%;
+        margin-top: 2%;
         height: auto;
     }
 
