@@ -401,6 +401,41 @@ legend {
 }
 
 
+.contact-container {
+    margin: 20px;
+}
+
+.summary {
+    margin-bottom: 10px;
+}
+
+.labelforfqa {
+    display: block;
+    background: transparent;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.fqatext {
+    display: none;
+    padding: 10px;
+}
+
+
+input[type="radio"] {
+    display: none;
+    background: transparent;
+}
+
+input[type="radio"]:checked+.summary .fqatext {
+    background: transparent;
+}
+
+input[type="radio"]:checked+.summary .fqatext {
+    display: block;
+}
+
+
 #map {
     width: 400px;
     height: 100%;
@@ -537,7 +572,6 @@ ul .social-platforms {
 @media screen and (max-width: 2560px) {
     #info-spaces {
         background-size: cover;
-
     }
 
     #main-photo {
@@ -550,8 +584,8 @@ ul .social-platforms {
 
     .contact-container {
         height: 300px;
-        margin-top: unset;
-        margin-top: 7.5%;
+        /* margin-top: unset;
+        margin-top: 7.5%; */
     }
 
 }
