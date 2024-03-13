@@ -400,11 +400,6 @@ legend {
     font-size: 105%;
 }
 
-
-.contact-container {
-    margin: 20px;
-}
-
 .summary {
     margin-bottom: 10px;
 }
@@ -913,10 +908,12 @@ ul .social-platforms {
     #address {
         left: unset;
         left: 41%;
+        bottom: 21%;
     }
 
     #contact {
         right: 55%;
+        bottom: 21%;
     }
 
     #map {
@@ -947,6 +944,22 @@ ul .social-platforms {
         transform: translate(0%, 32%);
     }
 
+    .contact-container, #qanda{
+        font-size: 80%;
+    }
+
+    #address, #contact {
+        bottom: 23%;
+    }
+
+    #contact {
+        width: 200px;
+    }
+
+    #qanda {
+        top: 40%;
+        font-size: 80%;
+    }
 }
 
 /* Media queries Max-Width 425px */
@@ -954,7 +967,6 @@ ul .social-platforms {
 @media screen and (max-width: 425px) {
     body {
         font-size: 75%;
-        align-self: baseline;
         align-content: space-between;
     }
 
@@ -977,7 +989,6 @@ ul .social-platforms {
     .mainphoto-container {
         height: 300px;
         position: relative;
-        /* top: 200px; */
     }
 
     #main-photo {
@@ -1110,19 +1121,19 @@ ul .social-platforms {
     }
 
     #contact {
-        top: unset;
+        bottom: 47%;
         height: 170px;
         width: 130px;
     }
 
     #address {
         height: 170px;
+        bottom: 47%;
     }
 
     #qanda {
-        top: 35px;
+        top: 197px;
         max-height: 150px;
-        font-size: 90%;
     }
 
     #schedule {
@@ -1134,7 +1145,8 @@ ul .social-platforms {
     }
 
     footer {
-        margin-top: 3%;
+        margin-top: 0;
+        line-height: 65px;
     }
 
     #footer-bottom {
@@ -1144,15 +1156,10 @@ ul .social-platforms {
 
     #footer-contact {
         position: relative;
-        bottom: -180px;
     }
 
     .footer-none {
         display: none;
-    }
-
-    .social-platforms {
-        padding: 5%;
     }
 
     .social-platforms li {
@@ -1187,14 +1194,17 @@ ul .social-platforms {
     }
 
     #contact {
-        top: -27%;
         height: 157px;
         width: 130px;
+        right: 51%;
     }
 
     #address {
         height: 157px;
-        top: -27%;
+    }
+
+    #qanda {
+        left: 0;
     }
 
     /* #schedule {
@@ -1235,19 +1245,19 @@ ul .social-platforms {
     #contact {
         right: 50%;
         height: 140px;
-        top: -24%;
-
+        top: 0;
     }
 
     #address {
         height: 140px;
-        top: -24%;
+        top: 0;
         padding-left: 2px;
         padding-right: 2px;
     }
 
     #qanda {
-        top: 29px;
+        bottom: 0;
+        left: 0;
     }
 
 
