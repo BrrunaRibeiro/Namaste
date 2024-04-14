@@ -283,20 +283,30 @@ div li {
     padding: 2%;
     padding-top: 10%;
     position: relative;
-    top: 25%;
+    top: 11%;
     border-collapse: collapse;
     font-size: 100%;
 }
 
-#schedule #table-header {
-    font-weight: 300;
-    font-size: 140%;
-    color: #ffffff;
+.table-header {
+    padding: 3px;
+    font-weight: 700;
+    font-size: 120%;
 }
 
-#schedule td {
-    border-right: solid 1px #ffffffa6;
-    border-left: solid 1px #ffffffa6;
+
+.table-data {
+    font-weight: 100;
+}
+
+tr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    padding: 10px;
 }
 
 /*Sign-up page*/
@@ -807,7 +817,6 @@ ul .social-platforms {
     #schedule {
         height: 50%;
         font-size: 82%;
-        top: 30%;
     }
 
     #thankyou-container {
@@ -928,7 +937,27 @@ ul .social-platforms {
     }
 
     #schedule {
-        font-size: 82%;
+        width: 100%;
+        font-size: 64%;
+        height: 100%;
+        top: 12%;
+    }
+
+    .table-header {
+        padding: 3px;
+        font-weight: 700;
+        text-decoration-line: underline;
+    }
+
+
+
+    tbody {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .period {
+        display: none;
     }
 
 }
@@ -1138,10 +1167,8 @@ ul .social-platforms {
 
     #schedule {
         height: 100%;
-        top: 10%;
+        top: 1%;
         padding-top: 0;
-        table-layout: auto;
-        grid-template-columns: 33% 33% 33% 33% 33% 33% 33%;
     }
 
     footer {
@@ -1151,7 +1178,6 @@ ul .social-platforms {
 
     #footer-bottom {
         position: relative;
-        top: 210px;
     }
 
     #footer-contact {
