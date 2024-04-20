@@ -269,10 +269,7 @@ div li {
     padding: 1%;
 }
 
-
-
 /* Schedule page */
-
 
 #schedule {
     background-color: rgba(180, 178, 178, 0.305);
@@ -289,7 +286,7 @@ div li {
 }
 
 .table-header {
-    padding: 3px;
+    padding: 15px;
     font-weight: 700;
     font-size: 120%;
 }
@@ -572,9 +569,33 @@ ul .social-platforms {
     padding-right: 3%;
 }
 
+/*Scroll bar for Chrome, Edge, Safari and Opera*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #649ea0b7;
+  }
+
+
 /* Media queries Max-Width 2560 */
 
 @media screen and (max-width: 2560px) {
+    body {
+        font-size: 120%;
+    }
+
     #info-spaces {
         background-size: cover;
     }
@@ -584,13 +605,16 @@ ul .social-platforms {
     }
 
     #form {
-        padding-top: 5%;
+        padding-top: 0.5%;
     }
 
     .contact-container {
         height: 300px;
-        /* margin-top: unset;
-        margin-top: 7.5%; */
+        margin-top: 7.5%;
+    }
+
+    #schedule {
+        top: 10%;
     }
 
 }
@@ -598,6 +622,10 @@ ul .social-platforms {
 /* Media queries Max-Width 1800px */
 
 @media screen and (max-width: 1800px) {
+    body {
+        font-size: 100%;
+    }
+
     #form-container {
         transform: translate(0%, 31%);
     }
@@ -633,8 +661,8 @@ ul .social-platforms {
     }
 
     #in-and-out {
-        padding: 0% 1% 3% 1%;
-        margin-top: -3%;
+        padding: 0% 1% 5% 1%;
+       
     }
 
     fieldset {
@@ -675,7 +703,7 @@ ul .social-platforms {
 
     #info- #in-and-out {
         padding: 0% 1% 3% 1%;
-        margin-top: -3%;
+        /* margin-top: -3%; */
     }
 
     fieldset {
@@ -713,7 +741,7 @@ ul .social-platforms {
 
     #in-and-out {
         padding: 0% 1% 3% 1%;
-        margin-top: -6%;
+        /* margin-top: -6%; */
     }
 
     #form-container {
@@ -758,7 +786,15 @@ ul .social-platforms {
 
     #in-and-out {
         padding: 0% 1% 3% 1%;
-        margin-top: -6%;
+        /* margin-top: -6%; */
+    }
+
+    #info-spaces {
+        height: 145px;
+    }
+
+    #info-opening-times {
+        padding: 10%;
     }
 
     #form-container {
@@ -857,9 +893,12 @@ ul .social-platforms {
 
     #in-and-out {
         padding: 0% 1% 3% 1%;
-        margin-top: -20%;
         background-size: contain;
         font-size: 85%;
+    }
+
+    #info-spaces {
+        height: 120px;
     }
 
     #form-container {
@@ -904,7 +943,7 @@ ul .social-platforms {
         padding: 1%;
         margin-top: 25%;
         width: unset;
-        bottom: 42%;
+        bottom: 27%;
     }
 
     #qanda {
@@ -917,12 +956,12 @@ ul .social-platforms {
     #address {
         left: unset;
         left: 41%;
-        bottom: 21%;
+        /* bottom: 21%; */
     }
 
     #contact {
         right: 55%;
-        bottom: 21%;
+        /* bottom: 21%; */
     }
 
     #map {
@@ -940,7 +979,7 @@ ul .social-platforms {
         width: 100%;
         font-size: 64%;
         height: 100%;
-        top: 12%;
+        top: 10.4%;
     }
 
     .table-header {
@@ -948,8 +987,6 @@ ul .social-platforms {
         font-weight: 700;
         text-decoration-line: underline;
     }
-
-
 
     tbody {
         display: flex;
@@ -959,7 +996,6 @@ ul .social-platforms {
     .period {
         display: none;
     }
-
 }
 
 /* Media queries Max-Width 640px */
@@ -973,11 +1009,13 @@ ul .social-platforms {
         transform: translate(0%, 32%);
     }
 
-    .contact-container, #qanda{
+    .contact-container,
+    #qanda {
         font-size: 80%;
     }
 
-    #address, #contact {
+    #address,
+    #contact {
         bottom: 23%;
     }
 
@@ -1053,8 +1091,12 @@ ul .social-platforms {
         justify-content: flex-start;
         flex-direction: column;
         font-size: 70%;
-        height: 408px;
+        height: 386px;
         max-height: 408px;
+    }
+
+    #info-spaces {
+        height: 65px;
     }
 
     #teachers h4 {
@@ -1084,8 +1126,7 @@ ul .social-platforms {
     }
 
     #in-and-out {
-        padding: 0% 1% 3% 1%;
-        margin-top: -45%;
+        padding: 0% 1% 6% 1%;
         font-size: 75%;
     }
 
@@ -1167,7 +1208,7 @@ ul .social-platforms {
 
     #schedule {
         height: 100%;
-        top: 1%;
+        top: 0;
         padding-top: 0;
     }
 
@@ -1182,10 +1223,6 @@ ul .social-platforms {
 
     #footer-contact {
         position: relative;
-    }
-
-    .footer-none {
-        display: none;
     }
 
     .social-platforms li {
@@ -1211,9 +1248,6 @@ ul .social-platforms {
 /* Media queries Max-Width 375px */
 
 @media screen and (max-width: 375px) {
-    #in-and-out {
-        margin-top: -52%;
-    }
 
     #thankyou-container {
         left: 5%;
@@ -1232,12 +1266,6 @@ ul .social-platforms {
     #qanda {
         left: 0;
     }
-
-    /* #schedule {
-        display: flex;
-        align-items: center;
-        top: 10%;
-    } */
 }
 
 /* Media queries Max-Width 320px */
@@ -1246,10 +1274,6 @@ ul .social-platforms {
     nav {
         display: flex;
         flex-direction: column;
-    }
-
-    #in-and-out {
-        margin-top: -65%;
     }
 
     #form-container {
@@ -1285,16 +1309,4 @@ ul .social-platforms {
         bottom: 0;
         left: 0;
     }
-
-
-    /* #schedule {
-        height: 70%;
-        top: 30%;
-        font-size: 10%;
-        display: flex;
-        align-items: center;
-        top: 15%;
-        padding-top: 10%;
-        padding-bottom: 10%;
-    } */
 }
