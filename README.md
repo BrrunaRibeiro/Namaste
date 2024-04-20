@@ -82,7 +82,9 @@ Github Pages was used to deploy the live website. The instructions to achieve th
   * WCAG AAA: Pass
   * WAVE does not detect contrast of background gradients, transparency, etc. For background images, WCAG requires a fallback background color in case the image does not display.
 * Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-   
+
+#### Manual Testing
+
 
 #### Further Testing
 
