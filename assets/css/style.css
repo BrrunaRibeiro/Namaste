@@ -957,25 +957,25 @@ ul .social-platforms {
 
     .contact-container {
         padding: 1%;
-        margin-top: 25%;
         width: unset;
-        bottom: 38%;
-        scale: 0.6;
+        bottom: 35%;
     }
 
     #qanda {
         position: relative;
-        top: 40%;
+        top: 67%;
         left: 1%;
     }
 
     #address {
         left: unset;
-        left: 33%;
+        left: 42%;
+        height: 200px;
     }
 
     #contact {
-        right: 43%;
+        right: 55%;
+        height: 200px;
     }
 
     #map {
@@ -1032,6 +1032,10 @@ ul .social-platforms {
         font-size: 80%;
     }
 
+    .contact-container {
+        margin-top: 37%;
+    }
+
     #address,
     #contact {
         bottom: 23%;
@@ -1078,6 +1082,10 @@ ul .social-platforms {
 
     #main-photo {
         height: 600px;
+    }
+
+    #main-photo-contact {
+        height: 670px;
     }
 
     div #intro-box {
@@ -1209,14 +1217,14 @@ ul .social-platforms {
     }
 
     #contact {
-        bottom: 47%;
+        bottom: 50%;
         height: 170px;
         width: 130px;
     }
 
     #address {
         height: 170px;
-        bottom: 47%;
+        bottom: 50%;
     }
 
     #qanda {
