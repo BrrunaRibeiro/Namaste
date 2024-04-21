@@ -588,6 +588,18 @@ ul .social-platforms {
     background: #649ea0b7;
   }
 
+.error {
+    text-align: center;
+    padding: 10%;
+    background-color: #c4c4c4;
+    align-content: center;
+    height: 390px;
+}
+
+.error-header {
+    text-align: center;
+    padding: 5%;
+}
 
 /* Media queries Max-Width 2560 */
 
@@ -858,6 +870,10 @@ ul .social-platforms {
     #thankyou-container {
         left: 20%;
     }
+
+    .error {
+        height: 473px;
+    }
 }
 
 /* Media queries Max-Width 768px */
@@ -956,12 +972,10 @@ ul .social-platforms {
     #address {
         left: unset;
         left: 41%;
-        /* bottom: 21%; */
     }
 
     #contact {
         right: 55%;
-        /* bottom: 21%; */
     }
 
     #map {
@@ -995,6 +1009,10 @@ ul .social-platforms {
 
     .period {
         display: none;
+    }
+
+    .error {
+        height: 524px;
     }
 }
 
@@ -1241,6 +1259,10 @@ ul .social-platforms {
         height: 280px;
         width: 280px;
     }
+
+    .error {
+        height: 293px;
+    }
 }
 
 
@@ -1264,6 +1286,10 @@ ul .social-platforms {
 
     #qanda {
         left: 0;
+    }
+
+    .error {
+        height: 303px;
     }
 }
 
@@ -1307,5 +1333,9 @@ ul .social-platforms {
     #qanda {
         bottom: 0;
         left: 0;
+    }
+
+    .error {
+        height: 314px;
     }
 }
