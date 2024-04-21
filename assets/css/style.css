@@ -959,23 +959,23 @@ ul .social-platforms {
         padding: 1%;
         margin-top: 25%;
         width: unset;
-        bottom: 27%;
+        bottom: 36%;
+        scale: 0.6;
     }
 
     #qanda {
         position: relative;
-        top: 34%;
+        top: 40%;
         left: 1%;
-
     }
 
     #address {
         left: unset;
-        left: 41%;
+        left: 33%;
     }
 
     #contact {
-        right: 55%;
+        right: 43%;
     }
 
     #map {
