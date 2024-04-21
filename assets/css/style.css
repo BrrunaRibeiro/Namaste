@@ -439,7 +439,7 @@ input[type="radio"]:checked+.summary .fqatext {
 
 
 #map {
-    width: 400px;
+    width: 300px;
     height: 100%;
     align-items: center;
     padding: 5px;
@@ -888,8 +888,8 @@ ul .social-platforms {
         height: 770px;
     }
 
-    #main-photo {
-        height: 770px;
+    #main-photo-contact {
+        height: 927px;
         background: url(../images/yogapracticenamaste.webp) no-repeat center top;
         background-size: cover;
     }
