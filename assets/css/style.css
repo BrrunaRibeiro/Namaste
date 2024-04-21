@@ -315,10 +315,16 @@ td {
     transform: translate(0%, 12%);
 }
 
+#main-photo {
+    height: 770px;
+    width: 100%;
+    background: url('../images/yogapracticenamaste.webp') no-repeat center top;
+    background-size: cover;
+}
+
 #main-photo-form {
     height: 830px;
     width: 100%;
-
     background: url('../images/yogapracticenamaste.webp') no-repeat center top;
     background-size: cover;
 }
