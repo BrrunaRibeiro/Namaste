@@ -400,6 +400,12 @@ legend {
     align-items: center;
 }
 
+.main-photo-contact {
+    height: 770px;
+    background: url('../images/yogapracticenamaste.webp') no-repeat center top;
+    background-size: cover;
+}
+
 #address {
     left: 32%;
 }
@@ -670,7 +676,7 @@ ul .social-platforms {
 
     #main-photo {
         height: 770px;
-        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+        background: url('../images/yogapracticenamaste.webp') no-repeat center top;
     }
 
     div #intro-box {
@@ -711,7 +717,7 @@ ul .social-platforms {
 
     #main-photo {
         height: 770px;
-        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+        background: url('../images/yogapracticenamaste.webp') no-repeat center top;
     }
 
     div #intro-box {
@@ -748,7 +754,7 @@ ul .social-platforms {
 
     #main-photo {
         height: 770px;
-        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+        background: url('../images/yogapracticenamaste.webp') no-repeat center top;
     }
 
     div #intro-box {
@@ -793,7 +799,7 @@ ul .social-platforms {
 
     #main-photo {
         height: 770px;
-        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+        background: url('../images/yogapracticenamaste.webp') no-repeat center top;
         background-size: cover;
     }
 
@@ -865,7 +871,8 @@ ul .social-platforms {
 
     #main-photo {
         height: 770px;
-        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+        background: url('../images/yogapracticenamaste.webp') no-repeat center top;
+        background-size: cover;
     }
 
     #schedule {
@@ -894,9 +901,9 @@ ul .social-platforms {
         height: 770px;
     }
 
-    #main-photo-contact {
+    .main-photo-contact {
         height: 927px;
-        background: url(../images/yogapracticenamaste.webp) no-repeat center top;
+        background: url('../images/yogapracticenamaste.webp') no-repeat center top;
         background-size: cover;
     }
 
@@ -969,7 +976,7 @@ ul .social-platforms {
 
     #qanda {
         position: relative;
-        top: 67%;
+        top: 41%;
         left: 1%;
     }
 
@@ -1090,8 +1097,10 @@ ul .social-platforms {
         height: 600px;
     }
 
-    #main-photo-contact {
+    .main-photo-contact {
         height: 670px;
+        background: url('../images/yogapracticenamaste.webp') no-repeat center top;
+        background-size: cover;
     }
 
     div #intro-box {
