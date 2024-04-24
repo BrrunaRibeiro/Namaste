@@ -85,13 +85,27 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 #### Manual Testing
 
+| Test Case | Description | Expected Result | Actual Result | Pass/Fail |
+|-----------|-------------|-----------------|---------------|-----------|
+| 1         | Homepage    | Verify that the homepage loads without errors | Homepage is displayed with content and images | [x] Pass / [ ] Fail |
+| 2         | Navigation Buttons | Test each button on the navigation bar/header | Each button correctly navigates to its respective page | [x] Pass / [ ] Fail |
+| 3         | Contact Form | Fill out and submit the contact form | Form submission successful, user receives confirmation message | [x] Pass / [ ] Fail |
+| 4         | Responsive Design | Test website on different devices (desktop, tablet, mobile) | Website layout adjusts correctly for different screen sizes | [x] Pass / [ ] Fail |
+| 5         | Broken Links | Check for any broken links on the website 404 page created to handle it | No broken links found, 404 page created | [x] Pass / [ ] Fail |
+| 6         | Image Loading | Verify that all images load correctly | All images display properly without any errors | [x] Pass / [ ] Fail |
+| 7        | Form Validation | Test form validation for all input fields | Proper error messages display for required empty inputs | [x] Pass / [ ] Fail |
+| 8        | Social Media Integration | Test social media links/buttons | Links/buttons correctly direct users to respective social media profiles/pages | [x] Pass / [ ] Fail |
+| 9        | Accessibility | Website can be used by visually impaired users | Website is navigable and usable for users with disabilities | [x] Pass / [ ] Fail |
+| 10         | Confirmation Page | After confirmation, user should be redirected to the main page | User is automatically redirected to the main page after 10 seconds |[x] Pass / [ ] Fail |
 
 #### Further Testing
 
-The Website was tested on Google Chrome.
-The website was viewed on a variety of devices such as Desktop, Laptop, Mobile Phones and Tablets.
-A large amount of testing was done to ensure that all pages were linking correctly.
-Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+* The Website was tested on Google Chrome.
+* The website was viewed on a variety of devices such as Desktop, Laptop, Mobile Phones and Tablets.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+* Responsiveness was checked in Google Chroms Dev Tools, as well as secondary websites, example: https://ui.dev/amiresponsive?url=https://brrunaribeiro.github.io/Namaste/
+
 
 ## Acknowledgements
 
