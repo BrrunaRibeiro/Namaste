@@ -514,7 +514,6 @@ details[open] div {
     color: #585858;
     text-align: center;
     position: fixed;
-
 }
 
 .thank-you h1 {
@@ -572,20 +571,20 @@ ul .social-platforms {
 
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 6px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+::-webkit-scrollbar-thumb:hover {
     background: #649ea0b7;
-  }
+}
 
 .error {
     text-align: center;
@@ -664,7 +663,7 @@ ul .social-platforms {
 
     #in-and-out {
         padding: 0% 1% 5% 1%;
-       
+
     }
 
     fieldset {
@@ -1270,4 +1269,70 @@ ul .social-platforms {
     .contact-container {
         padding: 23px;
     }
+}
+
+@media screen and (max-height: 675px) {
+
+    #thankyou-container {
+        height: 180px;
+        width: 180px;
+        font-size: 35%;
+        right: 0;
+        left: 0;
+        top: 20%;
+    }
+
+    #thank-you {
+        height: 130px;
+        width: 130px;
+        display: flex;
+    }
+
+    .menu-confirmation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 65%;
+        padding: 0 10px 0 10px;
+    }
+
+    .body-confirmation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        #thankyou-container {
+            top: 22%;
+            margin-left: 32%;
+        }
+    }
+
+    @media screen and (max-width: 678px) {
+        #thankyou-container {
+            top: 22%;
+            margin-left: 30%;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        #thankyou-container {
+            margin-left: 23%;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        #thankyou-container {
+            margin-left: 20%;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        #thankyou-container {
+            margin-left: 17%;
+        }
+    }
+
 }
